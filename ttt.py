@@ -216,6 +216,7 @@ def main():
         num_workers=num_workers
     )
 
+
     # 模型创建和训练
     model = SimpleCNN().to(device)
     print(model)
